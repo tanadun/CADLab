@@ -127,8 +127,8 @@ def test(uploaded_file, model, batch_size, img_size, crop_size, gpu_id):
 			result = {
 				"filename": str(img_names[0]),
 				"score": str(score_np[0]),
-				"Diagnostic Result":"Low score, nearly 0 = Potential to be Normal",
-				"Diagnostic Result":"High score, nearly 1 = Potential to be Abnormal"
+				"Diagnostic Result 0":"Low score, nearly 0 = Potential to be Normal",
+				"Diagnostic Result 1":"High score, nearly 1 = Potential to be Abnormal"
 			}
 			#result = str(img_names[0])  + ': ' + str(score_np[0])
 			print('img_names[0]',img_names[0])
